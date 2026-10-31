@@ -250,6 +250,16 @@ PRODUCT_COPY_FILES += \
     vendor/casper/via_s48/proprietary/lib64/android.hardware.audio.common@5.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@5.0-util.so \
     vendor/casper/via_s48/proprietary/lib64/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common-util.so \
     vendor/casper/via_s48/proprietary/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
+    vendor/casper/via_s48/proprietary/lib64/gc030a_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc030a_mipi_raw_IdxMgr.so \
+    vendor/casper/via_s48/proprietary/lib64/gc030a_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc030a_mipi_raw_tuning.so \
+    vendor/casper/via_s48/proprietary/lib64/gc2385_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc2385_mipi_raw_IdxMgr.so \
+    vendor/casper/via_s48/proprietary/lib64/gc2385_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc2385_mipi_raw_tuning.so \
+    vendor/casper/via_s48/proprietary/lib64/gc2385sub_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc2385sub_mipi_raw_IdxMgr.so \
+    vendor/casper/via_s48/proprietary/lib64/gc2385sub_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc2385sub_mipi_raw_tuning.so \
+    vendor/casper/via_s48/proprietary/lib64/gc5025_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc5025_mipi_raw_IdxMgr.so \
+    vendor/casper/via_s48/proprietary/lib64/gc5025_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc5025_mipi_raw_tuning.so \
+    vendor/casper/via_s48/proprietary/lib64/gc5025sub_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc5025sub_mipi_raw_IdxMgr.so \
+    vendor/casper/via_s48/proprietary/lib64/gc5025sub_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc5025sub_mipi_raw_tuning.so \
     vendor/casper/via_s48/proprietary/lib64/hw/android.hardware.audio@5.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@5.0-impl-mediatek.so \
     vendor/casper/via_s48/proprietary/lib64/hw/android.hardware.audio.effect@5.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@5.0-impl.so \
     vendor/casper/via_s48/proprietary/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
@@ -291,7 +301,19 @@ PRODUCT_COPY_FILES += \
     vendor/casper/via_s48/proprietary/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
     vendor/casper/via_s48/proprietary/lib64/hw/vendor.mediatek.hardware.power@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.power@2.1-impl.so \
     vendor/casper/via_s48/proprietary/lib64/hw/vendor.mediatek.hardware.pq@2.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.pq@2.3-impl.so \
+    vendor/casper/via_s48/proprietary/lib64/imx214_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx214_mipi_raw_IdxMgr.so \
+    vendor/casper/via_s48/proprietary/lib64/imx214_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx214_mipi_raw_tuning.so \
     vendor/casper/via_s48/proprietary/lib64/lbs_hidl_service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lbs_hidl_service-impl.so \
+    vendor/casper/via_s48/proprietary/lib64/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.core.so \
+    vendor/casper/via_s48/proprietary/lib64/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.so \
+    vendor/casper/via_s48/proprietary/lib64/lib3a.af.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.af.core.so \
+    vendor/casper/via_s48/proprietary/lib64/lib3a.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.af.so \
+    vendor/casper/via_s48/proprietary/lib64/lib3a.awb.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.awb.core.so \
+    vendor/casper/via_s48/proprietary/lib64/lib3a.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.awb.so \
+    vendor/casper/via_s48/proprietary/lib64/lib3a.flash.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.flash.so \
+    vendor/casper/via_s48/proprietary/lib64/lib3a.log.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.log.so \
+    vendor/casper/via_s48/proprietary/lib64/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so \
+    vendor/casper/via_s48/proprietary/lib64/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalsautils.so \
     vendor/casper/via_s48/proprietary/lib64/libaudiocompensationfilter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocompensationfilter_vendor.so \
     vendor/casper/via_s48/proprietary/lib64/libaudiocomponentengine_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocomponentengine_vendor.so \
     vendor/casper/via_s48/proprietary/lib64/libaudiocustparam_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocustparam_vendor.so \
@@ -300,6 +322,8 @@ PRODUCT_COPY_FILES += \
     vendor/casper/via_s48/proprietary/lib64/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_param_parser-vnd.so \
     vendor/casper/via_s48/proprietary/lib64/libaudioprimarydevicehalifclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioprimarydevicehalifclient.so \
     vendor/casper/via_s48/proprietary/lib64/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiotoolkit_vendor.so \
+    vendor/casper/via_s48/proprietary/lib64/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbessound_hd_mtk_vendor.so \
+    vendor/casper/via_s48/proprietary/lib64/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libblisrc32_vendor.so \
     vendor/casper/via_s48/proprietary/lib64/libbluetooth_audio_session.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session.so \
     vendor/casper/via_s48/proprietary/lib64/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetoothem_mtk.so \
     vendor/casper/via_s48/proprietary/lib64/libbluetooth_hw_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_hw_test.so \
@@ -307,6 +331,22 @@ PRODUCT_COPY_FILES += \
     vendor/casper/via_s48/proprietary/lib64/libbluetooth_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_mtk.so \
     vendor/casper/via_s48/proprietary/lib64/libbluetooth_relayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_relayer.so \
     vendor/casper/via_s48/proprietary/lib64/libBnMtkCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBnMtkCodec.so \
+    vendor/casper/via_s48/proprietary/lib64/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbwc.so \
+    vendor/casper/via_s48/proprietary/lib64/libcam3a_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam3a_imem.so \
+    vendor/casper/via_s48/proprietary/lib64/libcamalgo.dngop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.dngop.so \
+    vendor/casper/via_s48/proprietary/lib64/libcamalgo.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.eis.so \
+    vendor/casper/via_s48/proprietary/lib64/libcamalgo.fdft.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.fdft.so \
+    vendor/casper/via_s48/proprietary/lib64/libcamalgo.flicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.flicker.so \
+    vendor/casper/via_s48/proprietary/lib64/libcamalgo.fsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.fsc.so \
+    vendor/casper/via_s48/proprietary/lib64/libcamalgo.gyro.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.gyro.so \
+    vendor/casper/via_s48/proprietary/lib64/libcamalgo.ispfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.ispfeature.so \
+    vendor/casper/via_s48/proprietary/lib64/libcamalgo.lmv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.lmv.so \
+    vendor/casper/via_s48/proprietary/lib64/libcamalgo.lsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.lsc.so \
+    vendor/casper/via_s48/proprietary/lib64/libcamalgo.nr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.nr.so \
+    vendor/casper/via_s48/proprietary/lib64/libcamalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.so \
+    vendor/casper/via_s48/proprietary/lib64/libcamalgo.warp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.warp.so \
+    vendor/casper/via_s48/proprietary/lib64/libcamdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamdrv.so \
+    vendor/casper/via_s48/proprietary/lib64/libcamdrv_tuning_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamdrv_tuning_mgr.so \
     vendor/casper/via_s48/proprietary/lib64/libcameracustom.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.eis.so \
     vendor/casper/via_s48/proprietary/lib64/libcameracustom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.so \
     vendor/casper/via_s48/proprietary/lib64/libcam.feature_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.feature_utils.so \
@@ -324,18 +364,45 @@ PRODUCT_COPY_FILES += \
     vendor/casper/via_s48/proprietary/lib64/libcam.vhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.vhdr.so \
     vendor/casper/via_s48/proprietary/lib64/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcustom_nvram.so \
     vendor/casper/via_s48/proprietary/lib64/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpframework.so \
+    vendor/casper/via_s48/proprietary/lib64/libeffecthal.base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeffecthal.base.so \
+    vendor/casper/via_s48/proprietary/lib64/libeffects.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeffects.so \
     vendor/casper/via_s48/proprietary/lib64/libem_camera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libem_camera_jni.so \
     vendor/casper/via_s48/proprietary/lib64/libem_sensor_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libem_sensor_jni.so \
+    vendor/casper/via_s48/proprietary/lib64/libfeature_3dnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_3dnr.so \
+    vendor/casper/via_s48/proprietary/lib64/libfeature_eis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_eis.so \
+    vendor/casper/via_s48/proprietary/lib64/libfeature.face.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.face.so \
+    vendor/casper/via_s48/proprietary/lib64/libfeature_fsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_fsc.so \
+    vendor/casper/via_s48/proprietary/lib64/libfeatureiodrv_mem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeatureiodrv_mem.so \
+    vendor/casper/via_s48/proprietary/lib64/libfeature_lmv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_lmv.so \
+    vendor/casper/via_s48/proprietary/lib64/libfeature_rss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_rss.so \
+    vendor/casper/via_s48/proprietary/lib64/libfeature.stereo.provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.stereo.provider.so \
+    vendor/casper/via_s48/proprietary/lib64/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfile_op.so \
+    vendor/casper/via_s48/proprietary/lib64/libforkexecwrap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libforkexecwrap.so \
+    vendor/casper/via_s48/proprietary/lib64/libfpspolicy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpspolicy.so \
     vendor/casper/via_s48/proprietary/lib64/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libged.so \
     vendor/casper/via_s48/proprietary/lib64/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpu_aux.so \
     vendor/casper/via_s48/proprietary/lib64/libgpud.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpud.so \
     vendor/casper/via_s48/proprietary/lib64/libgralloc_extra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc_extra.so \
+    vendor/casper/via_s48/proprietary/lib64/libhwc2on1adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2on1adapter.so \
+    vendor/casper/via_s48/proprietary/lib64/libhwc2onfbadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2onfbadapter.so \
+    vendor/casper/via_s48/proprietary/lib64/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwm.so \
+    vendor/casper/via_s48/proprietary/lib64/libifcutils_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libifcutils_mtk.so \
+    vendor/casper/via_s48/proprietary/lib64/libimageio_plat_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimageio_plat_drv.so \
+    vendor/casper/via_s48/proprietary/lib64/libimageio_plat_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimageio_plat_pipe.so \
+    vendor/casper/via_s48/proprietary/lib64/libimageio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimageio.so \
     vendor/casper/via_s48/proprietary/lib64/libion_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_mtk.so \
+    vendor/casper/via_s48/proprietary/lib64/libion_ulit.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_ulit.so \
+    vendor/casper/via_s48/proprietary/lib64/libjpeg-alpha-oal_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpeg-alpha-oal_vendor.so \
+    vendor/casper/via_s48/proprietary/lib64/libjpeg-alpha_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpeg-alpha_vendor.so \
+    vendor/casper/via_s48/proprietary/lib64/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libJpgEncPipe.so \
     vendor/casper/via_s48/proprietary/lib64/libkeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster4.so \
     vendor/casper/via_s48/proprietary/lib64/libkeymaster4support.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster4support.so \
     vendor/casper/via_s48/proprietary/lib64/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-engine-wifi-hidl.so \
     vendor/casper/via_s48/proprietary/lib64/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-wifi-hidl.so \
     vendor/casper/via_s48/proprietary/lib64/libksensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libksensor.so \
+    vendor/casper/via_s48/proprietary/lib64/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libladder.so \
+    vendor/casper/via_s48/proprietary/lib64/liblpcnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblpcnr.so \
+    vendor/casper/via_s48/proprietary/lib64/libmsb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmsb.so \
     vendor/casper/via_s48/proprietary/lib64/libmtkcam_3rdparty.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_3rdparty.core.so \
     vendor/casper/via_s48/proprietary/lib64/libmtkcam_3rdparty.customer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_3rdparty.customer.so \
     vendor/casper/via_s48/proprietary/lib64/libmtkcam_3rdparty.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_3rdparty.mtk.so \
@@ -385,7 +452,11 @@ PRODUCT_COPY_FILES += \
     vendor/casper/via_s48/proprietary/lib64/libmtkcam_sysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_sysutils.so \
     vendor/casper/via_s48/proprietary/lib64/libmtkcam_tuning_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_tuning_utils.so \
     vendor/casper/via_s48/proprietary/lib64/libmtkcam_ulog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_ulog.so \
+    vendor/casper/via_s48/proprietary/lib64/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk_drvb.so \
+    vendor/casper/via_s48/proprietary/lib64/libmtklimiter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtklimiter_vendor.so \
     vendor/casper/via_s48/proprietary/lib64/libMtkOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkOmxCore.so \
+    vendor/casper/via_s48/proprietary/lib64/libmtkshifter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkshifter_vendor.so \
+    vendor/casper/via_s48/proprietary/lib64/libnbaio_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnbaio_mono.so \
     vendor/casper/via_s48/proprietary/lib64/libnvramagentclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvramagentclient.so \
     vendor/casper/via_s48/proprietary/lib64/libnvram_daemon_callback.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_daemon_callback.so \
     vendor/casper/via_s48/proprietary/lib64/libnvram_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_platform.so \
@@ -393,10 +464,24 @@ PRODUCT_COPY_FILES += \
     vendor/casper/via_s48/proprietary/lib64/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram.so \
     vendor/casper/via_s48/proprietary/lib64/libpowerhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhal.so \
     vendor/casper/via_s48/proprietary/lib64/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhalwrap_vendor.so \
+    vendor/casper/via_s48/proprietary/lib64/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_prot.so \
     vendor/casper/via_s48/proprietary/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
+    vendor/casper/via_s48/proprietary/lib64/libSonyIMX230PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX230PdafLibrary.so \
+    vendor/casper/via_s48/proprietary/lib64/libSonyIMX230PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX230PdafLibraryWrapper.so \
+    vendor/casper/via_s48/proprietary/lib64/libSonyIMX338PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX338PdafLibrary.so \
+    vendor/casper/via_s48/proprietary/lib64/libSonyIMX338PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX338PdafLibraryWrapper.so \
+    vendor/casper/via_s48/proprietary/lib64/libSonyIMX386PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX386PdafLibrary.so \
+    vendor/casper/via_s48/proprietary/lib64/libSonyIMX386PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX386PdafLibraryWrapper.so \
+    vendor/casper/via_s48/proprietary/lib64/libSonyIMX519PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX519PdafLibrary.so \
+    vendor/casper/via_s48/proprietary/lib64/libSonyIMX519PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX519PdafLibraryWrapper.so \
     vendor/casper/via_s48/proprietary/lib64/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeech_enh_lib.so \
     vendor/casper/via_s48/proprietary/lib64/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeechparser_vendor.so \
     vendor/casper/via_s48/proprietary/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
+    vendor/casper/via_s48/proprietary/lib64/libstereoinfoaccessor_vsdof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstereoinfoaccessor_vsdof.so \
+    vendor/casper/via_s48/proprietary/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
+    vendor/casper/via_s48/proprietary/lib64/libtinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml.so \
+    vendor/casper/via_s48/proprietary/lib64/libtz_uree.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtz_uree.so \
+    vendor/casper/via_s48/proprietary/lib64/liburee_meta_drmkeyinstall_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liburee_meta_drmkeyinstall_v2.so \
     vendor/casper/via_s48/proprietary/lib64/libwebrtc_audio_preprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwebrtc_audio_preprocessing.so \
     vendor/casper/via_s48/proprietary/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
     vendor/casper/via_s48/proprietary/lib64/libwifitest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifitest.so \
@@ -434,6 +519,16 @@ PRODUCT_COPY_FILES += \
     vendor/casper/via_s48/proprietary/lib/android.hardware.audio.common@5.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@5.0-util.so \
     vendor/casper/via_s48/proprietary/lib/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common-util.so \
     vendor/casper/via_s48/proprietary/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
+    vendor/casper/via_s48/proprietary/lib/gc030a_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc030a_mipi_raw_IdxMgr.so \
+    vendor/casper/via_s48/proprietary/lib/gc030a_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc030a_mipi_raw_tuning.so \
+    vendor/casper/via_s48/proprietary/lib/gc2385_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc2385_mipi_raw_IdxMgr.so \
+    vendor/casper/via_s48/proprietary/lib/gc2385_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc2385_mipi_raw_tuning.so \
+    vendor/casper/via_s48/proprietary/lib/gc2385sub_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc2385sub_mipi_raw_IdxMgr.so \
+    vendor/casper/via_s48/proprietary/lib/gc2385sub_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc2385sub_mipi_raw_tuning.so \
+    vendor/casper/via_s48/proprietary/lib/gc5025_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc5025_mipi_raw_IdxMgr.so \
+    vendor/casper/via_s48/proprietary/lib/gc5025_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc5025_mipi_raw_tuning.so \
+    vendor/casper/via_s48/proprietary/lib/gc5025sub_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc5025sub_mipi_raw_IdxMgr.so \
+    vendor/casper/via_s48/proprietary/lib/gc5025sub_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc5025sub_mipi_raw_tuning.so \
     vendor/casper/via_s48/proprietary/lib/hw/android.hardware.audio@5.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@5.0-impl-mediatek.so \
     vendor/casper/via_s48/proprietary/lib/hw/android.hardware.audio.effect@5.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@5.0-impl.so \
     vendor/casper/via_s48/proprietary/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
@@ -470,6 +565,18 @@ PRODUCT_COPY_FILES += \
     vendor/casper/via_s48/proprietary/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
     vendor/casper/via_s48/proprietary/lib/hw/vendor.mediatek.hardware.power@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.power@2.1-impl.so \
     vendor/casper/via_s48/proprietary/lib/hw/vendor.mediatek.hardware.pq@2.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq@2.3-impl.so \
+    vendor/casper/via_s48/proprietary/lib/imx214_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx214_mipi_raw_IdxMgr.so \
+    vendor/casper/via_s48/proprietary/lib/imx214_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx214_mipi_raw_tuning.so \
+    vendor/casper/via_s48/proprietary/lib/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ae.core.so \
+    vendor/casper/via_s48/proprietary/lib/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ae.so \
+    vendor/casper/via_s48/proprietary/lib/lib3a.af.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.af.core.so \
+    vendor/casper/via_s48/proprietary/lib/lib3a.af.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.af.so \
+    vendor/casper/via_s48/proprietary/lib/lib3a.awb.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.awb.core.so \
+    vendor/casper/via_s48/proprietary/lib/lib3a.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.awb.so \
+    vendor/casper/via_s48/proprietary/lib/lib3a.flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.flash.so \
+    vendor/casper/via_s48/proprietary/lib/lib3a.log.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.log.so \
+    vendor/casper/via_s48/proprietary/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
+    vendor/casper/via_s48/proprietary/lib/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils.so \
     vendor/casper/via_s48/proprietary/lib/libaudiocompensationfilter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilter_vendor.so \
     vendor/casper/via_s48/proprietary/lib/libaudiocomponentengine_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocomponentengine_vendor.so \
     vendor/casper/via_s48/proprietary/lib/libaudiocustparam_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocustparam_vendor.so \
@@ -478,6 +585,9 @@ PRODUCT_COPY_FILES += \
     vendor/casper/via_s48/proprietary/lib/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_param_parser-vnd.so \
     vendor/casper/via_s48/proprietary/lib/libaudioprimarydevicehalifclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioprimarydevicehalifclient.so \
     vendor/casper/via_s48/proprietary/lib/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiotoolkit_vendor.so \
+    vendor/casper/via_s48/proprietary/lib/libavservices_minijail_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavservices_minijail_vendor.so \
+    vendor/casper/via_s48/proprietary/lib/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbessound_hd_mtk_vendor.so \
+    vendor/casper/via_s48/proprietary/lib/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblisrc32_vendor.so \
     vendor/casper/via_s48/proprietary/lib/libbluetooth_audio_session.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session.so \
     vendor/casper/via_s48/proprietary/lib/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetoothem_mtk.so \
     vendor/casper/via_s48/proprietary/lib/libbluetooth_hw_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_hw_test.so \
@@ -485,6 +595,16 @@ PRODUCT_COPY_FILES += \
     vendor/casper/via_s48/proprietary/lib/libbluetooth_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_mtk.so \
     vendor/casper/via_s48/proprietary/lib/libbluetooth_relayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_relayer.so \
     vendor/casper/via_s48/proprietary/lib/libBnMtkCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBnMtkCodec.so \
+    vendor/casper/via_s48/proprietary/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
+    vendor/casper/via_s48/proprietary/lib/libcam3a_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam3a_imem.so \
+    vendor/casper/via_s48/proprietary/lib/libcamalgo.fdft.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.fdft.so \
+    vendor/casper/via_s48/proprietary/lib/libcamalgo.flicker.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.flicker.so \
+    vendor/casper/via_s48/proprietary/lib/libcamalgo.ispfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.ispfeature.so \
+    vendor/casper/via_s48/proprietary/lib/libcamalgo.lsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.lsc.so \
+    vendor/casper/via_s48/proprietary/lib/libcamalgo.nr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.nr.so \
+    vendor/casper/via_s48/proprietary/lib/libcamalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.so \
+    vendor/casper/via_s48/proprietary/lib/libcamdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv.so \
+    vendor/casper/via_s48/proprietary/lib/libcamdrv_tuning_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_tuning_mgr.so \
     vendor/casper/via_s48/proprietary/lib/libcameracustom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.so \
     vendor/casper/via_s48/proprietary/lib/libcam.hal3a.cctsvr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.cctsvr.so \
     vendor/casper/via_s48/proprietary/lib/libcam.hal3a.log.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.log.so \
@@ -497,11 +617,32 @@ PRODUCT_COPY_FILES += \
     vendor/casper/via_s48/proprietary/lib/libcam.utils.sensorprovider.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.utils.sensorprovider.so \
     vendor/casper/via_s48/proprietary/lib/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustom_nvram.so \
     vendor/casper/via_s48/proprietary/lib/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpframework.so \
+    vendor/casper/via_s48/proprietary/lib/libDR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDR.so \
+    vendor/casper/via_s48/proprietary/lib/libeffects.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeffects.so \
+    vendor/casper/via_s48/proprietary/lib/libfeatureiodrv_mem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeatureiodrv_mem.so \
+    vendor/casper/via_s48/proprietary/lib/libfeature.stereo.provider.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature.stereo.provider.so \
+    vendor/casper/via_s48/proprietary/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
+    vendor/casper/via_s48/proprietary/lib/libfpspolicy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfpspolicy.so \
     vendor/casper/via_s48/proprietary/lib/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib/libged.so \
+    vendor/casper/via_s48/proprietary/lib/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgeofence.so \
     vendor/casper/via_s48/proprietary/lib/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpu_aux.so \
     vendor/casper/via_s48/proprietary/lib/libgpud.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpud.so \
     vendor/casper/via_s48/proprietary/lib/libgralloc_extra.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_extra.so \
+    vendor/casper/via_s48/proprietary/lib/libhwc2on1adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwc2on1adapter.so \
+    vendor/casper/via_s48/proprietary/lib/libhwc2onfbadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwc2onfbadapter.so \
+    vendor/casper/via_s48/proprietary/lib/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwm.so \
+    vendor/casper/via_s48/proprietary/lib/libimageio_plat_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio_plat_drv.so \
+    vendor/casper/via_s48/proprietary/lib/libimageio_plat_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio_plat_pipe.so \
+    vendor/casper/via_s48/proprietary/lib/libimageio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio.so \
     vendor/casper/via_s48/proprietary/lib/libion_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_mtk.so \
+    vendor/casper/via_s48/proprietary/lib/libion_ulit.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_ulit.so \
+    vendor/casper/via_s48/proprietary/lib/libjpeg-alpha-oal_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeg-alpha-oal_vendor.so \
+    vendor/casper/via_s48/proprietary/lib/libjpeg-alpha_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeg-alpha_vendor.so \
+    vendor/casper/via_s48/proprietary/lib/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libJpgEncPipe.so \
+    vendor/casper/via_s48/proprietary/lib/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libladder.so \
+    vendor/casper/via_s48/proprietary/lib/libmnl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmnl.so \
+    vendor/casper/via_s48/proprietary/lib/libmp4enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_sa.ca7.so \
+    vendor/casper/via_s48/proprietary/lib/libmsb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmsb.so \
     vendor/casper/via_s48/proprietary/lib/libmtkcam_calibration_convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_calibration_convertor.so \
     vendor/casper/via_s48/proprietary/lib/libmtkcam_calibration_provider.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_calibration_provider.so \
     vendor/casper/via_s48/proprietary/lib/libmtkcam_debugutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_debugutils.so \
@@ -517,6 +658,8 @@ PRODUCT_COPY_FILES += \
     vendor/casper/via_s48/proprietary/lib/libmtkcam_sysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_sysutils.so \
     vendor/casper/via_s48/proprietary/lib/libmtkcam_tuning_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_tuning_utils.so \
     vendor/casper/via_s48/proprietary/lib/libmtkcam_ulog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_ulog.so \
+    vendor/casper/via_s48/proprietary/lib/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtk_drvb.so \
+    vendor/casper/via_s48/proprietary/lib/libmtklimiter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtklimiter_vendor.so \
     vendor/casper/via_s48/proprietary/lib/libMtkOmxAdpcmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAdpcmDec.so \
     vendor/casper/via_s48/proprietary/lib/libMtkOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAlacDec.so \
     vendor/casper/via_s48/proprietary/lib/libMtkOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxApeDec.so \
@@ -526,6 +669,8 @@ PRODUCT_COPY_FILES += \
     vendor/casper/via_s48/proprietary/lib/libMtkOmxMp3Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxMp3Dec.so \
     vendor/casper/via_s48/proprietary/lib/libMtkOmxVdecEx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxVdecEx.so \
     vendor/casper/via_s48/proprietary/lib/libMtkOmxVenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxVenc.so \
+    vendor/casper/via_s48/proprietary/lib/libmtkshifter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkshifter_vendor.so \
+    vendor/casper/via_s48/proprietary/lib/libnbaio_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnbaio_mono.so \
     vendor/casper/via_s48/proprietary/lib/libnvramagentclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvramagentclient.so \
     vendor/casper/via_s48/proprietary/lib/libnvram_daemon_callback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_daemon_callback.so \
     vendor/casper/via_s48/proprietary/lib/libnvram_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_platform.so \
@@ -533,14 +678,29 @@ PRODUCT_COPY_FILES += \
     vendor/casper/via_s48/proprietary/lib/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram.so \
     vendor/casper/via_s48/proprietary/lib/libpowerhal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhal.so \
     vendor/casper/via_s48/proprietary/lib/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhalwrap_vendor.so \
+    vendor/casper/via_s48/proprietary/lib/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_prot.so \
     vendor/casper/via_s48/proprietary/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
+    vendor/casper/via_s48/proprietary/lib/libSonyIMX230PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX230PdafLibrary.so \
+    vendor/casper/via_s48/proprietary/lib/libSonyIMX230PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX230PdafLibraryWrapper.so \
+    vendor/casper/via_s48/proprietary/lib/libSonyIMX338PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX338PdafLibrary.so \
+    vendor/casper/via_s48/proprietary/lib/libSonyIMX338PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX338PdafLibraryWrapper.so \
+    vendor/casper/via_s48/proprietary/lib/libSonyIMX386PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX386PdafLibrary.so \
+    vendor/casper/via_s48/proprietary/lib/libSonyIMX386PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX386PdafLibraryWrapper.so \
+    vendor/casper/via_s48/proprietary/lib/libSonyIMX519PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX519PdafLibrary.so \
+    vendor/casper/via_s48/proprietary/lib/libSonyIMX519PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX519PdafLibraryWrapper.so \
     vendor/casper/via_s48/proprietary/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
     vendor/casper/via_s48/proprietary/lib/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeechparser_vendor.so \
     vendor/casper/via_s48/proprietary/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/casper/via_s48/proprietary/lib/libstagefright_softomx_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_softomx_plugin.so \
     vendor/casper/via_s48/proprietary/lib/libstagefright_softomx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_softomx.so \
     vendor/casper/via_s48/proprietary/lib/libthermalalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalalgo.so \
+    vendor/casper/via_s48/proprietary/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so \
+    vendor/casper/via_s48/proprietary/lib/libtinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml.so \
+    vendor/casper/via_s48/proprietary/lib/libtz_uree.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtz_uree.so \
+    vendor/casper/via_s48/proprietary/lib/liburee_meta_drmkeyinstall_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib/liburee_meta_drmkeyinstall_v2.so \
     vendor/casper/via_s48/proprietary/lib/libvcodecdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv.so \
+    vendor/casper/via_s48/proprietary/lib/libvcodec_oal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_oal.so \
+    vendor/casper/via_s48/proprietary/lib/libvcodec_utility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_utility.so \
     vendor/casper/via_s48/proprietary/lib/libwebrtc_audio_preprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwebrtc_audio_preprocessing.so \
     vendor/casper/via_s48/proprietary/lib/libwifitest.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifitest.so \
     vendor/casper/via_s48/proprietary/lib/modules/bt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/bt_drv.ko \

@@ -1,0 +1,44 @@
+#
+# Proprietary Blobs List: Casper VIA S48 (MT8168)
+# Extracted from Stock Firmware: Casper_VIA_S48_0_20220606_C1.03
+#
+
+# Graphics / Mali Bifrost (G52)
+vendor/lib64/egl/libGLES_mali.so
+vendor/lib/egl/libGLES_mali.so
+vendor/lib64/hw/android.hardware.graphics.allocator@2.0-impl.so
+vendor/lib64/hw/android.hardware.graphics.composer@2.1-impl.so
+vendor/lib64/hw/gralloc.mt8168.so
+vendor/lib/hw/gralloc.mt8168.so
+
+# Media & Codecs
+vendor/lib64/libMtkOmxCore.so
+vendor/lib/libMtkOmxCore.so
+vendor/lib64/libMtkOmxVdecEx.so
+vendor/lib/libMtkOmxVdecEx.so
+vendor/lib64/libMtkOmxVencOpvp.so
+vendor/lib/libMtkOmxVencOpvp.so
+
+# Connectivity (Wi-Fi, Bluetooth, GPS, FM)
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so
+vendor/lib/modules/wmt_drv.ko
+vendor/lib/modules/bt_drv.ko
+vendor/lib/modules/wmt_chrdev_wifi.ko
+vendor/lib/modules/wlan_drv_gen4m.ko
+vendor/firmware/WMT.cfg
+vendor/firmware/soc2_0_ram_bt_1_1_hdr.bin
+vendor/firmware/soc2_0_ram_wifi_1_1_hdr.bin
+
+# Touchscreen Firmware & Config
+vendor/firmware/f716_gsl1680.fw
+
+# Sensors & Input
+vendor/lib64/hw/sensors.mt8168.so
+vendor/lib/hw/sensors.mt8168.so
+vendor/lib64/hw/android.hardware.sensors@1.0-impl.so
+
+# Keymaster / Keystore (Legacy HIDL)
+vendor/bin/hw/android.hardware.keymaster@4.0-service.trustkernel
+vendor/lib64/hw/android.hardware.keymaster@4.0-impl.so
+vendor/lib/hw/android.hardware.keymaster@4.0-impl.so

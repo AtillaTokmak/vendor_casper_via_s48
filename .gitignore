@@ -1,0 +1,4 @@
+# Ignore local extracted proprietary binaries
+proprietary/
+*.img
+*.raw

@@ -52,7 +52,20 @@ extract_from_dump() {
         fi
 
         if [[ -n "${src}" && ( -e "${src}" || -L "${src}" ) ]]; then
-            cp -a "${src}" "${dest}"
+            if [[ -L "${src}" ]]; then
+                local link_target
+                link_target="$(readlink "${src}")"
+                # If target is absolute or points to dump dir, make it a clean relative target
+                if [[ "${link_target}" =~ egl/libGLES_mali.so$ ]]; then
+                    ln -sf "../egl/libGLES_mali.so" "${dest}"
+                elif [[ "${link_target}" =~ libSoftGatekeeper.so$ ]]; then
+                    ln -sf "libSoftGatekeeper.so" "${dest}"
+                else
+                    cp -a "${src}" "${dest}"
+                fi
+            else
+                cp -f "${src}" "${dest}"
+            fi
             SUCCESS_COUNT=$((SUCCESS_COUNT + 1))
         else
             echo "[-] Warning: Missing blob in dump: ${target_file}"
